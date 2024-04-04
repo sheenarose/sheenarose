@@ -1,0 +1,19 @@
+nav{
+    background: green;
+    padding: 30px;
+}
+
+a.menu{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+
+a.menu:hover{
+    color:orange;
+    background:lightgreen;
+}
+
+body{
+    margin: 0px;
+}
