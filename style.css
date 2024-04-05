@@ -1,19 +1,148 @@
 nav{
-    background: green;
-    padding: 30px;
+    background: pink;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
 }
 
 a.menu{
-    color: white;
+    color: #815f52;
     text-decoration: none;
-    padding: 30px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 20px;
+    
+}
+a.menu:last-child {
+    padding-right: 50px; 
+}
+h4.menu{
+    color: #815f52;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-right: auto;
+    font-size: 25px;
 }
 
+a.menu, h4.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+    
 a.menu:hover{
-    color:orange;
-    background:lightgreen;
+    color:#9f7666;
 }
 
 body{
     margin: 0px;
+    background: #ffd7de;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+.bodyP{
+    
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 140px;
+    padding-bottom: 30px;
+    line-height: 1.8;
+    text-align: center;
+    
+}
+.bodyP, #links{
+    background: #fed0d8;
+}
+
+.bio{
+    padding-top: 102px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.bio_image{
+    
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+      }
+.bio_text {
+    color: #815f52;
+    padding-top: 120px;
+    padding-left: 60px;
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    font-size: 50px;
+    @media (max-width: 400px) {
+      width: 100%;
+      }
+    
+}
+#links {
+    display: flex;
+    justify-content: center; 
+}
+
+#links a {
+    margin: 0 30px; 
+    padding-bottom: 140px;
+}
+
+#portfolio{
+    background: #fdc7d1; 
+    text-align: center; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    align-items: flex-start;
+    
+}
+.title-container {
+    width: 100%;
+}
+
+#portTitle{
+    text-align: center;
+    color: #815f52;
+    margin-top: 20px;
+    padding-bottom: 80px;
+    font-size: 150px;
+}
+
+.port {
+    
+    margin: 10px;
+    padding-bottom: 30px;
+}
+
+.first {
+    text-align: center;
+}
+
+.img1 {
+    padding-top: 90px;
+    padding-bottom: 100px;
+    
+}
+
+#abtme{
+    text-align: center;
+    font-size: 110px;
+    color: #815f52;
+}
+
+.blurb {
+    text-align: center; 
+    margin-left: 50px; 
+    margin-right: 50px;
+    line-height: 1.8;
 }
